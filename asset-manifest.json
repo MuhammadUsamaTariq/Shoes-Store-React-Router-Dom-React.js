@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Shoes-Store-React-Router-Dom-React.js/static/css/main.0be0e559.chunk.css",
-    "main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.139d3581.chunk.js",
-    "main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.139d3581.chunk.js.map",
+    "main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.eaf0b7d4.chunk.js",
+    "main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.eaf0b7d4.chunk.js.map",
     "runtime-main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.bca703a6.js",
     "runtime-main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.bca703a6.js.map",
-    "static/js/2.d966f459.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.d966f459.chunk.js",
-    "static/js/2.d966f459.chunk.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.d966f459.chunk.js.map",
+    "static/js/2.a1db585a.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.a1db585a.chunk.js",
+    "static/js/2.a1db585a.chunk.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.a1db585a.chunk.js.map",
     "static/js/3.890eab1f.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/3.890eab1f.chunk.js",
     "static/js/3.890eab1f.chunk.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/3.890eab1f.chunk.js.map",
     "index.html": "/Shoes-Store-React-Router-Dom-React.js/index.html",
     "static/css/main.0be0e559.chunk.css.map": "/Shoes-Store-React-Router-Dom-React.js/static/css/main.0be0e559.chunk.css.map",
-    "static/js/2.d966f459.chunk.js.LICENSE.txt": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.d966f459.chunk.js.LICENSE.txt",
+    "static/js/2.a1db585a.chunk.js.LICENSE.txt": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.a1db585a.chunk.js.LICENSE.txt",
     "static/media/shoesOne.3be0124e.jpg": "/Shoes-Store-React-Router-Dom-React.js/static/media/shoesOne.3be0124e.jpg",
     "static/media/shoesThree.28175c3d.jpg": "/Shoes-Store-React-Router-Dom-React.js/static/media/shoesThree.28175c3d.jpg",
     "static/media/shoesTwo.3269c05d.jpg": "/Shoes-Store-React-Router-Dom-React.js/static/media/shoesTwo.3269c05d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bca703a6.js",
-    "static/js/2.d966f459.chunk.js",
+    "static/js/2.a1db585a.chunk.js",
     "static/css/main.0be0e559.chunk.css",
-    "static/js/main.139d3581.chunk.js"
+    "static/js/main.eaf0b7d4.chunk.js"
   ]
 }
