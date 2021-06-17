@@ -76,10 +76,13 @@ body{
 .main-nav{
   background-repeat: repeat-x;
 }
+.des-img{
+  height: 550px;
+}
 @media(max-width: 600px){
  
   .des-img{
-    padding: 30px;
+    width: 100%;
   }
   .main-nav{
     background-repeat: repeat-x;
@@ -100,7 +103,7 @@ body{
 }
 @media(max-width: 320px){
   .des-img{
-    padding: 20px;
+    width: 100%;
   }
   .main-nav{
     background-repeat: repeat-x;

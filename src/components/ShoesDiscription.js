@@ -22,7 +22,7 @@ const ShoesDiscription = () => {
 
         <Grid className='container-air-max'  container direction="row">
 
-            <Grid item xs={12} sm={6} md={6} className='image-grid' style={{height : '550px'}} >
+            <Grid item xs={12} sm={6} md={6} className='image-grid'  >
                 <img src={shoesOne} height='100%' width='90%' className="des-img" />
             </Grid>
             <Grid className='discription-1' item xs={12} sm={6} md={6} style={{height : '80%'}}  >
@@ -44,7 +44,7 @@ const ShoesDiscription = () => {
 
         <Grid className='container-air-max' container direction="row">
 
-            <Grid item xs={12} sm={6} md={6} className='image-grid' style={{height : '550px'}} >
+            <Grid item xs={12} sm={6} md={6} className='image-grid' className="des-img"  >
                 <img src={shoesTwo} height='100%' width='90%' />
             </Grid>
             <Grid className='discription-1' item xs={12} sm={6} md={6} style={{height : '80%'}} >
@@ -66,7 +66,7 @@ const ShoesDiscription = () => {
 
         <Grid className='container-air-max' container direction="row">
 
-            <Grid item xs={12} sm={6} md={6} className='image-grid' style={{height : '550px'}} >
+            <Grid item xs={12} sm={6} md={6} className='image-grid' className="des-img"  >
                 <img src={shoesThree} height='100%' width='90%' />
             </Grid>
             <Grid className='discription-1' item xs={12} sm={6} md={6} style={{height : '80%'}} >
