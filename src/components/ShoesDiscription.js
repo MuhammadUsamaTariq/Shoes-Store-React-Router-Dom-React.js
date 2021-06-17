@@ -44,8 +44,8 @@ const ShoesDiscription = () => {
 
         <Grid className='container-air-max' container direction="row">
 
-            <Grid item xs={12} sm={6} md={6} className='image-grid' className="des-img"  >
-                <img src={shoesTwo} height='100%' width='90%' />
+            <Grid item xs={12} sm={6} md={6} className='image-grid'   >
+                <img src={shoesTwo} height='100%' width='90%' className="des-img" />
             </Grid>
             <Grid className='discription-1' item xs={12} sm={6} md={6} style={{height : '80%'}} >
                 <h2>Nike Air Max 2</h2>
@@ -66,8 +66,8 @@ const ShoesDiscription = () => {
 
         <Grid className='container-air-max' container direction="row">
 
-            <Grid item xs={12} sm={6} md={6} className='image-grid' className="des-img"  >
-                <img src={shoesThree} height='100%' width='90%' />
+            <Grid item xs={12} sm={6} md={6} className='image-grid'   >
+                <img src={shoesThree} height='100%' width='90%' className="des-img" />
             </Grid>
             <Grid className='discription-1' item xs={12} sm={6} md={6} style={{height : '80%'}} >
                 <h2>Nike Air Max 3</h2>

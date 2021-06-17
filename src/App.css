@@ -2,7 +2,9 @@
   text-align: center;
   
 }
-
+#root{
+  overflow: hidden;
+}
 body{
   background-color: #fafafa;
   max-width: 100%;
@@ -13,11 +15,7 @@ body{
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -80,6 +78,10 @@ body{
   height: 550px;
 }
 @media(max-width: 600px){
+  body{
+  
+      overflow-x: hidden;
+  }
  
   .des-img{
     width: 100%;
@@ -102,6 +104,10 @@ body{
   
 }
 @media(max-width: 320px){
+  body{
+   
+      overflow-x: hidden;
+  }
   .des-img{
     width: 100%;
   }
@@ -119,6 +125,10 @@ body{
   
 }
 @media(max-width:280px){
+  body{
+   
+      overflow-x: hidden;
+  }
   .main-nav{
     background-repeat: repeat-x;
   }
