@@ -19,21 +19,21 @@ const ShoesList = () => {
         <Grid container direction="row" spacing={1} className='shoesContainer'>
 
             <Grid className='air-max-img' item xs={12} sm={4} md={4}>
-                <h2><Link className="air-max" to="/ShoesDiscription/air-max-1">
+                <h2><Link className="air-max" to="/Shoes-Store-React-Router-Dom-React.js/ShoesDiscription/air-max-1">
                     <img src={shoesOne} height='550px' width='90%'  />
                 </Link></h2>
             </Grid>
 
             
                 <Grid className='air-max-img' item xs={12} sm={4} md={4}>
-                <h2><Link className="air-max" to="/ShoesDiscription/air-max-2">
+                <h2><Link className="air-max" to="/Shoes-Store-React-Router-Dom-React.js/ShoesDiscription/air-max-2">
                     <img src={shoesTwo} height='550px' width='90%' />
                     </Link></h2>
                 </Grid>
             
            
                 <Grid className='air-max-img' item xs={12} sm={4} md={4}>
-                <h2><Link className="air-max" to="/ShoesDiscription/air-max-3">
+                <h2><Link className="air-max" to="/Shoes-Store-React-Router-Dom-React.js/ShoesDiscription/air-max-3">
                     <img src={shoesThree} height='550px' width='90%' />
                     </Link></h2>
                 </Grid>

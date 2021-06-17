@@ -30,10 +30,10 @@ function App() {
     
       
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Shoes-Store-React-Router-Dom-React.js/">
         <ShoesList />
         </Route>
-        <Route path="/ShoesDiscription/:id" >
+        <Route path="/Shoes-Store-React-Router-Dom-React.js/ShoesDiscription/:id" >
             <ShoesDiscription />
         </Route>
       </Switch>
