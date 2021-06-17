@@ -81,6 +81,9 @@ body{
   .des-img{
     padding: 30px;
   }
+  .main-nav{
+    background-repeat: repeat-x;
+  }
   .discription-1{
     position: relative;
     left: 1px;
@@ -99,6 +102,9 @@ body{
   .des-img{
     padding: 20px;
   }
+  .main-nav{
+    background-repeat: repeat-x;
+  }
   .discription-1{
     position: relative;
     left: 1px;
@@ -111,7 +117,7 @@ body{
 }
 @media(max-width:280px){
   .main-nav{
-    width: max-content;
+    background-repeat: repeat-x;
   }
   .second-nav{
     display: none;
