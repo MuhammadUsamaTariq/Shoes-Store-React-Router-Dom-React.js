@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+import Grid from '@material-ui/core/Grid';
+
+import Navbar from './components/Navbar';
+import ShoesList from './components/ShoesList';
+import ShoesDiscription from './components/ShoesDiscription';
+import Footer from './components/Footer';
+
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+
 import './App.css';
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      
+       <Navbar />
+       
+    
+      
+      <Switch>
+        <Route exact path="/">
+        <ShoesList />
+        </Route>
+        <Route path="/ShoesDiscription/:id" >
+            <ShoesDiscription />
+        </Route>
+      </Switch>
+
+      <Footer />
+    </Router>
   );
 }
 

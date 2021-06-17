@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  
 }
 
+body{
+  background-color: #fafafa;
+  max-width: 100%;
+    overflow-x: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,12 +33,87 @@
 .App-link {
   color: #61dafb;
 }
+.shoesContainer{
+  margin: 50px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.air-max{
+  text-decoration: none;
+  
+}
+
+.air-max-img{
+  position: relative;
+  left: 20px;
+}
+  
+.container-air-max{
+  margin-top: 20px;
+  
+}
+.discription-1{
+ text-align: justify;
+ position: relative;
+ right: 30px;
+ width: 80%; 
+}
+.image-grid{
+  height: 700px;
+}
+.second-nav{
+ color: grey;
+ list-style-type: none;
+ position: relative;
+ left: 43%
+}
+.footer{
+  color: grey;
+ list-style-type: none;
+  display: flex;
+  position: absolute;
+  left: 47%;
+}
+.main-nav{
+  background-repeat: repeat-x;
+}
+@media(max-width: 600px){
+ 
+  .des-img{
+    padding: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  .discription-1{
+    position: relative;
+    left: 1px;
+    padding: 30px;
+  }
+  .second-nav{
+    float: right;
+  }
+  .footer{
+    position: absolute;
+  left: 35%;
+  }
+  
+}
+@media(max-width: 320px){
+  .des-img{
+    padding: 20px;
+  }
+  .discription-1{
+    position: relative;
+    left: 1px;
+    padding: 10px;
+  }
+  .second-nav{
+    float: right;
+  }
+  
+}
+@media(max-width:280px){
+  .main-nav{
+    width: max-content;
+  }
+  .second-nav{
+    display: none;
   }
 }
