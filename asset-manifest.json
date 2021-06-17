@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Shoes-Store-React-Router-Dom-React.js/static/css/main.e433efc9.chunk.css",
-    "main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.3a6cfd6b.chunk.js",
-    "main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.3a6cfd6b.chunk.js.map",
-    "runtime-main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.bca703a6.js",
-    "runtime-main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.bca703a6.js.map",
-    "static/js/2.d966f459.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.d966f459.chunk.js",
-    "static/js/2.d966f459.chunk.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.d966f459.chunk.js.map",
-    "static/js/3.890eab1f.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/3.890eab1f.chunk.js",
-    "static/js/3.890eab1f.chunk.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/3.890eab1f.chunk.js.map",
+    "main.css": "/Shoes-Store-React-Router-Dom-React.js/static/css/main.50642c84.chunk.css",
+    "main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.8d5adf4f.chunk.js",
+    "main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.8d5adf4f.chunk.js.map",
+    "runtime-main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.077dbb9e.js",
+    "runtime-main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.077dbb9e.js.map",
+    "static/js/2.7ebec3d7.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.7ebec3d7.chunk.js",
+    "static/js/2.7ebec3d7.chunk.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.7ebec3d7.chunk.js.map",
+    "static/js/3.f707dda9.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/3.f707dda9.chunk.js",
+    "static/js/3.f707dda9.chunk.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/3.f707dda9.chunk.js.map",
     "index.html": "/Shoes-Store-React-Router-Dom-React.js/index.html",
-    "static/css/main.e433efc9.chunk.css.map": "/Shoes-Store-React-Router-Dom-React.js/static/css/main.e433efc9.chunk.css.map",
-    "static/js/2.d966f459.chunk.js.LICENSE.txt": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.d966f459.chunk.js.LICENSE.txt",
+    "static/css/main.50642c84.chunk.css.map": "/Shoes-Store-React-Router-Dom-React.js/static/css/main.50642c84.chunk.css.map",
+    "static/js/2.7ebec3d7.chunk.js.LICENSE.txt": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.7ebec3d7.chunk.js.LICENSE.txt",
     "static/media/shoesOne.3be0124e.jpg": "/Shoes-Store-React-Router-Dom-React.js/static/media/shoesOne.3be0124e.jpg",
     "static/media/shoesThree.28175c3d.jpg": "/Shoes-Store-React-Router-Dom-React.js/static/media/shoesThree.28175c3d.jpg",
     "static/media/shoesTwo.3269c05d.jpg": "/Shoes-Store-React-Router-Dom-React.js/static/media/shoesTwo.3269c05d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bca703a6.js",
-    "static/js/2.d966f459.chunk.js",
-    "static/css/main.e433efc9.chunk.css",
-    "static/js/main.3a6cfd6b.chunk.js"
+    "static/js/runtime-main.077dbb9e.js",
+    "static/js/2.7ebec3d7.chunk.js",
+    "static/css/main.50642c84.chunk.css",
+    "static/js/main.8d5adf4f.chunk.js"
   ]
 }
