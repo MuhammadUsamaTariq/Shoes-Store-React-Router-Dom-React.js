@@ -17,17 +17,22 @@ import { useEffect } from "react";
 const ShoesDiscription = () => {
 
     useEffect(() => {
+        const onScroll = () => {
+             window.scrollTo(0, 0) 
+            
+        };
+        
+       onScroll()
        
-          let animation =  document.querySelector('#box');
+       let animation =  document.querySelector('#box');
             
-          animation.animate([
-              { transform : 'translate(0,-600px)'},
-             
-            
-          ],
-          { duration: 2000 }
-          )
-      
+       animation.animate([
+           { transform : 'translate(0,-600px)'},
+          
+         
+       ],
+       { duration: 2000 }
+       )
        
     }, []);
 
@@ -102,23 +107,7 @@ const ShoesDiscription = () => {
 
     return (
 
-        // <Grid className='container-air-max'  container direction="row">
-
-        //     <Grid item xs={6} sm={6} md={6}  >
-        //     <img src={shoesOne} height='100%' width='100%' />
-        //     </Grid>
-        //     <Grid className='discription-1' item xs={6} sm={6} md={6}  >
-        //         <h2>Nike Air Max 1</h2>
-        //         <br />
-        //         <h2>Discription : 
-        //             <h6>
-        //             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ullamcorper odio. Nullam at nisi quis justo dignissim ultricies vel quis enim. Sed suscipit condimentum turpis, vel bibendum purus pharetra eget. Nullam mattis aliquam velit, blandit ultricies tortor posuere nec. Vestibulum porta odio eleifend eros congue, at molestie tellus rutrum. Pellentesque ultricies risus nisl, et condimentum turpis iaculis at. Mauris a dapibus orci, et ornare risus. Ut consequat mattis justo, et molestie erat tincidunt non. Mauris iaculis risus quis lectus tempor venenatis. Quisque bibendum purus ut massa sodales placerat. Curabitur gravida, lacus vitae eleifend  pretium.
-        //             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ullamcorper odio. Nullam at nisi quis justo dignissim ultricies vel quis enim. Sed suscipit condimentum turpis, vel bibendum purus pharetra eget. Nullam mattis aliquam velit, blandit ultricies tortor posuere nec. Vestibulum porta odio eleifend eros congue, at molestie tellus rutrum. Pellentesque ultricies risus nisl, et condimentum turpis iaculis at. Mauris a dapibus orci, et ornare risus. Ut consequat mattis justo, et molestie erat tincidunt non. Mauris iaculis risus quis lectus tempor venenatis. Quisque bibendum purus ut massa sodales placerat. Curabitur gravida, lacus vitae eleifend  pretium.
-        //             </h6>
-        //         </h2>
-        //     </Grid>
-        // </Grid>
-        <div id='box'>{id == 'air-max-1' ? shoes1 : id == 'air-max-2' ? shoes2 : shoes3}<br /><br /><br /></div>
+        <div id ='box'>{id == 'air-max-1' ? shoes1 : id == 'air-max-2' ? shoes2 : shoes3}<br /><br /><br /></div>
     );
 }
 
