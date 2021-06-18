@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Shoes-Store-React-Router-Dom-React.js/static/css/main.0be0e559.chunk.css",
-    "main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.eaf0b7d4.chunk.js",
-    "main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.eaf0b7d4.chunk.js.map",
+    "main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.f4b650a0.chunk.js",
+    "main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/main.f4b650a0.chunk.js.map",
     "runtime-main.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.bca703a6.js",
     "runtime-main.js.map": "/Shoes-Store-React-Router-Dom-React.js/static/js/runtime-main.bca703a6.js.map",
     "static/js/2.a1db585a.chunk.js": "/Shoes-Store-React-Router-Dom-React.js/static/js/2.a1db585a.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.bca703a6.js",
     "static/js/2.a1db585a.chunk.js",
     "static/css/main.0be0e559.chunk.css",
-    "static/js/main.eaf0b7d4.chunk.js"
+    "static/js/main.f4b650a0.chunk.js"
   ]
 }
