@@ -17,15 +17,18 @@ import { useEffect } from "react";
 const ShoesDiscription = () => {
 
     useEffect(() => {
-        const onScroll = () => {
-             window.scrollTo(0, 0) 
+       
+          let animation =  document.querySelector('#box');
             
-        };
-        const scrollDown = () => {
-            window.scrollTo(0, 800) 
-        }
-       onScroll()
-       setTimeout(()=>{scrollDown()}, 1000)
+          animation.animate([
+              { transform : 'translate(0,-600px)'},
+             
+            
+          ],
+          { duration: 2000 }
+          )
+      
+       
     }, []);
 
     const { id } = useParams();
@@ -115,7 +118,7 @@ const ShoesDiscription = () => {
         //         </h2>
         //     </Grid>
         // </Grid>
-        <div>{id == 'air-max-1' ? shoes1 : id == 'air-max-2' ? shoes2 : shoes3}<br /><br /><br /></div>
+        <div id='box'>{id == 'air-max-1' ? shoes1 : id == 'air-max-2' ? shoes2 : shoes3}<br /><br /><br /></div>
     );
 }
 
