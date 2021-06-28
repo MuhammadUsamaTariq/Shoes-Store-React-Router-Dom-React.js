@@ -23,16 +23,7 @@ const ShoesDiscription = () => {
         };
         
        onScroll()
-       
-       let animation =  document.querySelector('#box');
-            
-       animation.animate([
-           { transform : 'translate(0,-600px)'},
-          
-         
-       ],
-       { duration: 2000 }
-       )
+
        
     }, []);
 
